@@ -34,9 +34,9 @@
                                                 element = document.getElementById(messagereplace)
 
                                                 if (element.src.match("loading")) {
-                                                   alert(messagepath);
 
-                                                    element.src = messagepath
+                                                    element.src = "file://" + messagepath
+                                                    
                                                 }
                                             }
                                         })
