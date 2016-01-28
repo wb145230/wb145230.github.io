@@ -21,10 +21,7 @@
                                        /* Init your app here */
                                        // 从OC  bridge.send 方法过来的 就会调用到这个方法
                                        bridge.init(function(message, responseCallback) {
-                                              alert(message);
-
                                                message = JSON.parse(message);
-                                               alert(message);
                                                var element = document.getElementById(message.imageUrl)
                                                if (element.src.match("loading")) {
                                                     element.src = message.imagePaths
