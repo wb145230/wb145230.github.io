@@ -20,8 +20,10 @@
                                     bridge.init(function(message, responseCallback) {
                                                message = JSON.parse(message);
                                                var element = document.getElementById(message.imageUrl)
+                                               alert(element);
                                                if (element.src.match("loading")) {
                                                     element.src = message.imagePaths
+                                                    alert(element.src);
                                                }
                                         })
                                     })
