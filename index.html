@@ -17,10 +17,7 @@
             }
         // 这2句是必须写的
         connectWebViewJavascriptBridge(function(bridge) {
-                                       
-                                       /* Init your app here */
-                                       // 从OC  bridge.send 方法过来的 就会调用到这个方法
-                                       bridge.init(function(message, responseCallback) {
+                                    bridge.init(function(message, responseCallback) {
                                                message = JSON.parse(message);
                                                var element = document.getElementById(message.imageUrl)
                                                if (element.src.match("loading")) {
