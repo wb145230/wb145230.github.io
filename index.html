@@ -18,7 +18,7 @@
         // 这2句是必须写的
         connectWebViewJavascriptBridge(function(bridge) {
                                     bridge.init(function(message, responseCallback) {
-                                               message = JSON.parse(message);                                                                                              alert(element);
+                                               message = JSON.parse(message);                                                                                    alert(message);
 
                                                var element = document.getElementById(message.imageUrl)
                                                if (element.src.match("loading")) {
