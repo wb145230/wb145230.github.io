@@ -3,7 +3,6 @@
     <head></head>
     <body>
         <script>
-            // 这2句是必须写的
             function connectWebViewJavascriptBridge(callback) {
                 if (window.WebViewJavascriptBridge) {
                     callback(WebViewJavascriptBridge)
@@ -15,7 +14,6 @@
                                               false)
                 }
             }
-        // 这2句是必须写的
         connectWebViewJavascriptBridge(function(bridge) {
                                         bridge.init(function(message, responseCallback) {
                                                message = JSON.parse(message);                           
