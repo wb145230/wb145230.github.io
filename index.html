@@ -18,9 +18,9 @@
                                         bridge.init(function(message, responseCallback) {
                                                message = JSON.parse(message);                           
                                                var element = document.getElementById(message.imageUrl)
-                                               if (element.src.match("loading")) {
+                                               // if (element.src.match("loading")) {
                                                     element.src = message.imagePaths
-                                               }
+                                               // }
                                         });
 
                                         bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/index_test_1.png'}, function(response) {
@@ -31,6 +31,6 @@
         <br />
         <p>这个里面是是测试代码,里面有1个图片
         <br />
-        <img src = "loading" id = "http://wb145230.github.io/index_test_1.png"/></p>
+        <img id = "http://wb145230.github.io/index_test_1.png"/></p>
     </body>
 </html>
