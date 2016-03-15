@@ -16,33 +16,30 @@ connectWebViewJavascriptBridge(function(bridge) {
        }
     });
 
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456814821774.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296311571.jpg'}, function(response) {
 
     });  
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1455777672282.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296247502.jpg'}, function(response) {
 
     });
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1455777681954.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296277575.jpg'}, function(response) {
 
     });
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1455777702796.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296279927.jpg'}, function(response) {
 
     });
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1455777707801.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296289528.jpg'}, function(response) {
 
     });
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1455777713830.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296294820.jpg'}, function(response) {
 
     });
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1455777733695.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296298849.jpg'}, function(response) {
 
     });
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1455777739677.jpg'}, function(response) {
+    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456296241206.jpg'}, function(response) {
 
     });
-    bridge.callHandler('testObjcCallback', {'url': 'http://wb145230.github.io/1456814821774.jpg'}, function(response) {
-
-    });    
 })
 
 function onLoad() {
