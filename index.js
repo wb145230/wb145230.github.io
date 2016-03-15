@@ -48,5 +48,8 @@ connectWebViewJavascriptBridge(function(bridge) {
 function onLoad() {
   var now = new Date().getTime();
   var page_load_time = now - performance.timing.navigationStart;
-  alert("page loading time: " + page_load_time);
+  //alert("page loading time: " + page_load_time);
+  var element = document.getElementById("show_time");
+  element.text = page_load_time;
+
 }
