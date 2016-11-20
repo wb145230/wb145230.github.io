@@ -1,0 +1,32 @@
+{
+    "data": {
+        "A": [
+            {
+                "color_value": "鹿晗",
+                "image_url": "26"
+            },
+            {
+                "color_value": "李易峰",
+                "image_url": "29"
+            },
+            {
+                "name": "陈赫",
+                "image_url": "31"
+            }
+        ],
+        "B": [
+            {
+                "color_value": "鹿晗",
+                "image_url": "26"
+            },
+            {
+                "color_value": "李易峰",
+                "image_url": "29"
+            },
+            {
+                "color_value": "陈赫",
+                "image_url": "31"
+            }
+        ]
+    }
+}
