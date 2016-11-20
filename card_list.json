@@ -1,27 +1,27 @@
 {
     "data": [
         {
-            "color_value": "#33b5e5",
+            "color_value": "0x33b5e5",
             "image_url": "26",
             "card_name": "家乐福"
         },
         {
-            "color_value": "#aa66cc",
+            "color_value": "0xaa66cc",
             "image_url": "29",
             "card_name": "百佳"
         },
         {
-            "color_value": "#99cc00",
+            "color_value": "0x99cc00",
             "image_url": "31",
             "card_name": "达芙妮"
         },
         {
-            "color_value": "#ffbb33",
+            "color_value": "0xffbb33",
             "image_url": "31",
             "card_name": "屈臣氏"
         },
         {
-            "color_value": "#ff4444",
+            "color_value": "0xff4444",
             "image_url": "31",
             "card_name": "百芷集"
         }
