@@ -7,23 +7,29 @@
         },
         {
             "color_value": "aa66cc",
-            "image_url": "29",
-            "card_name": "百佳"
+            "image_url": "https://wb145230.github.io/card/card_image/lgAyd.png",
+            "card_name": "爱婴岛"
         },
         {
             "color_value": "99cc00",
-            "image_url": "31",
-            "card_name": "达芙妮"
+            "image_url": "https://wb145230.github.io/card/card_image/lgBdyj.png",
+            "card_name": "宝岛眼镜"
         },
         {
             "color_value": "ffbb33",
-            "image_url": "31",
-            "card_name": "屈臣氏"
+            "image_url": "https://wb145230.github.io/card/card_image/lgBj.png",
+            "card_name": "百佳"
         },
         {
             "color_value": "ff4444",
-            "image_url": "31",
-            "card_name": "百芷集"
+            "image_url": "https://wb145230.github.io/card/card_image/lgblbl.png",
+            "card_name": "巴拉巴拉"
+        },
+        {
+            "color_value": "ff4444",
+            "image_url": "https://wb145230.github.io/card/card_image/lgBm.png",
+            "card_name": "北面"
         }
+
     ]
 }
