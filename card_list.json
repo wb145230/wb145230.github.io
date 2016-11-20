@@ -2,19 +2,23 @@
     "data": [
         {
             "color_value": "鹿晗",
-            "image_url": "26"
+            "image_url": "26",
+            "card_name": "家乐福"
         },
         {
             "color_value": "李易峰",
-            "image_url": "29"
+            "image_url": "29",
+            "card_name": "百佳"
         },
         {
             "name": "陈赫",
-            "image_url": "31"
+            "image_url": "31",
+            "card_name": "达芙妮"
         },
         {
             "name": "陈赫1",
-            "image_url": "31"
+            "image_url": "31",
+            "card_name": "屈臣氏"
         }
     ]
 }
